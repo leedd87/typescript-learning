@@ -9,3 +9,17 @@
 
 // console.log(hero.age + 1)
 
+(() => {
+   const a: number = 10;
+   console.log(a)
+})() //funcion auto invocada
+
+
+
+let b: number = 10;
+
+function sayHello(msg: string) {
+   console.log(msg)
+
+}
+
