@@ -15,9 +15,15 @@
 
          return Apocalipsis.instance
       }
+
+      changeName(newName: string): void {
+         this.name = newName;
+      }
    }
 
    const apocalip1 = Apocalipsis.callApocalipsis()
+
+   apocalip1.changeName('Xavier')
 
    // const apocalipsis = new Apocalipsis('Soy apocalipsis... el unico')
    // console.log(apocalipsis)

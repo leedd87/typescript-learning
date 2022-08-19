@@ -90,7 +90,11 @@
             }
             return Apocalipsis.instance;
         }
+        changeName(newName) {
+            this.name = newName;
+        }
     }
     const apocalip1 = Apocalipsis.callApocalipsis();
+    apocalip1.changeName('Xavier');
 })();
 //# sourceMappingURL=main.js.map
