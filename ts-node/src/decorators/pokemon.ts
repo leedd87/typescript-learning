@@ -59,7 +59,7 @@ function readOnly(isWritable: boolean = true): Function {
 @printToConsoleConditional(false)
 
 export class Pokemon {
-   @readOnly()
+   @readOnly(true)
    public publicApi: string = "https://pokeapi.co"
    constructor(
 
