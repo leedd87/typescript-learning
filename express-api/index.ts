@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
 
 });
 
+
 app.listen(port, () => {
 	console.log(
 		`Ejemplo de la app escuchando en el puerto http://localhost:${port}`
